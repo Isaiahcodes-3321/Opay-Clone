@@ -1,0 +1,9 @@
+@import '../pages_styling/global_variables/root_style.css';
+
+
+.mainBox {
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    background-color: var(--whiteColor);
+}

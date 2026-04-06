@@ -1,0 +1,21 @@
+@import './global_variables/root_style.css';
+
+.mainNav {
+    width: 100%;
+    color: var(--whiteColor);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoBox {
+    width: 25vw;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+.logoBox img {
+    object-fit: contain;
+}

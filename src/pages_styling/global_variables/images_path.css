@@ -1,0 +1,17 @@
+:root {
+  --bannerImg: url('../../assets/bannerImg.png');
+  --billBoard: url('../../assets/billBoard.png');
+  --fedexLogo: url('../../assets/fedexLogo.png');
+  --fuhao: url('../../assets/fuhao-0158caac.png');
+  --guinnessLog: url('../../assets/GuinnessLog.png');
+  --h-medixLogo: url('../../assets/H-MEDIXLogo.png');
+  --iconCbn: url('../../assets/iconCBN.png');
+  --iconNdic: url('../../assets/iconNDIC.png');
+  --img1: url('../../assets/img1.png');
+  --img2: url('../../assets/img2.png');
+  --img3: url('../../assets/img3.png');
+  --logoImg: url('../../assets/logoImg.png');
+  --logoImg2: url('../../assets/logoImg2.png');
+  --opayBuilding: url('../../assets/opayBuilding.png');
+  --opayMachImg: url('../../assets/opayMachImg.png');
+}

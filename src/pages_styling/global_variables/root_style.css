@@ -1,0 +1,11 @@
+:root {
+    --appButtonColorGreen: rgb(29, 207, 159);
+    --blueColor: rgb(53, 37, 110);
+    --textBlackColor: rgb(91, 91, 91);
+    --whiteColor: rgb(250,250,250);
+
+    /* font style */
+    --smallFont: clamp(0.7rem, 1rem, 2.8rem);
+    --meduimFont: clamp(1.5rem, 1.8rem, 5.5rem);
+    --bigFont: clamp(1.8rem, 2rem, 7rem);
+}
