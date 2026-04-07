@@ -1,4 +1,4 @@
-export function SolutionSection() {
+export function PaymentSection() {
     return (
         <div className="">
 

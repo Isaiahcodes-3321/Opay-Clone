@@ -2,10 +2,16 @@
     --appButtonColorGreen: rgb(29, 207, 159);
     --blueColor: rgb(53, 37, 110);
     --textBlackColor: rgb(91, 91, 91);
-    --whiteColor: rgb(250,250,250);
+    --blkColor: #1d1d1d;
+    --whiteColor: rgb(250, 250, 250);
+    --offWhite: rgb(239, 241, 238);
+    --lightGreen: rgb(230, 247, 238);
+
 
     /* font style */
+    --smallerFont: clamp(0.4rem, 0.8rem, 1.7rem);
     --smallFont: clamp(0.7rem, 1rem, 2.8rem);
-    --meduimFont: clamp(1.5rem, 1.8rem, 5.5rem);
-    --bigFont: clamp(1.8rem, 2rem, 7rem);
+    --meduimFont: clamp(1.2rem, 1.5rem, 5rem);
+    --meduimFont1: clamp(1.5rem, 1.8rem, 5.5rem);
+    --bigFont: clamp(1.9rem, 2.5rem, 8rem);
 }

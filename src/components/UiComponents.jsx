@@ -1,8 +1,10 @@
 
 import './components_main.css';
 
-export function ButtonComponent({buttonText}) {
+export function ButtonComponent({ buttonText, className = "" }) {
     return (
-        <button className="mainButton">{buttonText}</button>
+        <button className={`mainButton ${className}`}>
+            {buttonText}
+        </button>
     );
 }

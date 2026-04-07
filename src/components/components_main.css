@@ -1,5 +1,9 @@
 @import './components_export.css';
 
 .mainButton {
-
+    color: var(--whiteColor);
+    font-weight: bolder;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
 }
