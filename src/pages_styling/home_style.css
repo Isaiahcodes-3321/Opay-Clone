@@ -10,7 +10,7 @@
 }
 
 .sectionOne {
-    width: 100%;
+    width: 100;
     /* height: 79vh; */
     margin: 0;
     padding: 0;
@@ -34,6 +34,7 @@
 .extraStyling {
     font-size: var(--meduimFont);
     padding: 1.5vh 2.5vw;
+    border-radius: 30px;
     background-color: var(--appButtonColorGreen);
 }
 
@@ -117,8 +118,172 @@ h2 {
     display: none;
 }
 
+.sectionTwo {
+    width: 100;
+    height: auto;
+    padding: 5vh 0 4vh 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: orange; */
+}
+
+.section2child {
+    width: 40vw;
+    height: auto;
+    display: flex;
+    margin-top: 3vh;
+    flex-direction: column;
+    border-radius: 13px;
+    /* background-color: red; */
+}
+
+.section2child img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 13px 13px 13px 13px;
+}
 
 
+.section2child h2 {
+    font-weight: 900;
+    padding-top: 2vh;
+    font-size: var(--meduimFont1);
+}
+
+.section2child h3 {
+    font-weight: 300;
+    font-size: var(--meduimFont);
+    padding-bottom: 3vh;
+}
+
+.sectionThree {
+    width: 100;
+    height: 30;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: orange; */
+}
+
+.sectionThreechildText {
+    width: 53vw;
+    margin-top: 10vh;
+    text-align: center;
+    font-size: var(--bigFont);
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.sectionThreechildText .spanNumber {
+    color: var(--appButtonColorGreen);
+    font-size: inherit;
+}
+
+.sectionThreechildText .stretchText {
+    display: inline-block;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.imgLogs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+    /* margin-top: 2vh; */
+    padding: 0 5vw;
+}
+
+.imgLogs img {
+    height: auto;
+    width: 10vw;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.sectionFour {
+    width: 100;
+    height: auto;
+    display: flex;
+    padding: 0vh 5vw 0vh 5vw;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+.sectionFourChild {
+    width: 30vw;
+    height: auto;
+    background-color: var(--lightGreen);
+    border-radius: 8px;
+    padding: 2vh 2vw 2vh 2vw;
+    display: flex;
+    margin-top: 17vh;
+    flex-direction: column;
+}
+
+.resizedsectionFourChild {
+    width: 25vw;
+}
+
+.rowTextImg {
+    width: 100;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.rowTextImg img {
+    width: 5vw;
+}
+
+.sectionFourChild h2 {
+    font-weight: 700;
+    font-size: var(--meduimFont);
+}
+
+.sectionFourChild h3 {
+    font-weight: 500;
+    font-size: var(--smallFont);
+}
+
+.sectionFive {
+    width: 100;
+    height: auto;
+    display: flex;
+    margin-top: 13vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.sectionFiveHeadText {
+    font-size: var(--bigFont);
+}
+
+.sectionFourContactButton {
+    font-size: var(--meduimFont);
+    padding: 3vh 9vw;
+    border-radius: 50px;
+    margin-top: 2vh;
+    background-color: var(--appButtonColorGreen);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.sectionFourContactButton .fa-phone {
+    font-size: 1.4em;
+}
 
 
 @media (max-width: 900px) {
@@ -165,5 +330,103 @@ h2 {
     .licensedWrapper {
         padding: 1vh 0vw 2vh 0vw;
     }
+
+    .sectionTwo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section2child {
+        width: 90vw;
+    }
+
+    .section2child h2 {
+        font-weight: 700;
+        font-size: var(--meduimFont);
+    }
+
+    .section2child h3 {
+        font-size: var(--smallFont);
+    }
+
+    .sectionThreechildText {
+        width: 95vw;
+        margin-top: 3vh;
+        color: var(--blkColor);
+        font-size: var(--meduimFont);
+        line-height: 1;
+    }
+
+    .sectionThreechildText .spanNumber {
+        color: var(--appButtonColorGreen);
+        /* font-size: inherit; */
+        letter-spacing: 0px;
+    }
+
+    .sectionThreechildText .stretchText {
+        letter-spacing: -1px;
+        font-weight: bold;
+    }
+
+    .imgLogs {
+        gap: 5vw;
+        /* margin-top: 2vh; */
+        padding: 0 2vw;
+    }
+
+    .imgLogs img {
+        width: 15vw;
+    }
+
+    .sectionFour {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sectionFourChild {
+        width: 90vw;
+        /* background-color: red; */
+        padding: 3vh 2vw 3vh 2vw;
+        margin-top: 3vh;
+    }
+
+    .sectionFourChild h2 {
+        font-weight: 700;
+        font-size: var(--meduimFont);
+    }
+
+    .sectionFourChild h3 {
+        font-weight: 400;
+    }
+
+
+    .rowTextImg {
+        /* background-color: green; */
+        align-items: center;
+    }
+
+    .rowTextImg img {
+        width: 10vw;
+    }
+
+    .sectionFiveHeadText {
+        text-align: center;
+        padding: 0 3vw 0 3vw;
+        font-size: var(--meduimFont);
+    }
+
+    .sectionFourContactButton {
+        font-size: var(--smallFont);
+        padding: 2vh 20vw;
+        gap: 12px;
+    }
+
+    .sectionFourContactButton .fa-phone {
+        font-size: 1em;
+    }
+
 
 }
