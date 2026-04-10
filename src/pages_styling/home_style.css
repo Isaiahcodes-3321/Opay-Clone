@@ -11,9 +11,8 @@
 
 .sectionOne {
     width: 100;
-    /* height: 79vh; */
+    height: auto;
     margin: 0;
-    padding: 0;
     background-color: var(--offWhite);
     display: flex;
     flex-direction: row;
@@ -22,7 +21,7 @@
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: contain;
-    background-size: 65vw;
+    background-size: 63vw;
 }
 
 .sectionOne div {
@@ -285,12 +284,18 @@ h2 {
     font-size: 1.4em;
 }
 
+@media screen and (min-width: 560px) and (max-width: 1000px) {
+    .sectionOne {
+        padding: 0rem 0;
+    }
+}
 
 @media (max-width: 900px) {
     .sectionOne {
+        height: auto;
         flex-direction: column-reverse;
         background-size: 90vw;
-        height: 40vh;
+        padding: 6.5rem 0;
     }
 
     .sectionOne div {
