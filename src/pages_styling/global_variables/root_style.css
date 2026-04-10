@@ -9,8 +9,8 @@
 
 
     /* font style */
-    --smallerFont: clamp(0.4rem, 0.8rem, 1.7rem);
-    --smallFont: clamp(0.7rem, 1rem, 2.8rem);
+    --smallerFont: clamp(0.2rem, 0.6rem, 1.5rem);
+    --smallFont: clamp(0.6rem, 0.9rem, 2.7rem);
     --meduimFont: clamp(1.2rem, 1.5rem, 5rem);
     --meduimFont1: clamp(1.5rem, 1.8rem, 5.5rem);
     --bigFont: clamp(1.9rem, 2.5rem, 8rem);

@@ -9,12 +9,12 @@
 .mainNav {
     width: 100%;
     color: var(--whiteColor);
-    height: 10vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 4rem;
+    padding: 0.3rem 4rem;
     background-color: var(--whiteColor);
 }
 
@@ -97,11 +97,11 @@
 
 .overlayHeader {
     background: var(--whiteColor);
-    height: 10vh;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5vw;
+    padding: 0.3rem 1rem;
 }
 
 .closeCircle {
@@ -134,8 +134,10 @@
 
 @media (max-width: 910px) {
     .mainNav {
-    padding: 0 1.5rem;
-}
+        padding: 0.3rem 1.5rem;
+        /* height: 6vh; */
+    }
+
     .desktopMenu {
         display: none;
     }

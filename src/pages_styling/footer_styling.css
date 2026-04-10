@@ -1,0 +1,57 @@
+@import './global_variables/root_style.css';
+
+.footerBody {
+    width: 100%;
+    height: auto;
+    background-color: var(--blueColor);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerChildBody1 {
+    width: 20vw;
+    height: auto;
+}
+
+.footerChildBody1 img {
+    width: 10vw;
+    height: auto;
+    object-fit: contain;
+}
+
+.footerChildBody2 {
+    width: 65vw;
+    height: auto;
+}
+
+.logoBgScreen {
+    display: block;
+}
+
+.logoSmScreen {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .footerBody {
+        flex-direction: column;
+    }
+
+    .footerChildBody1 {
+        width: 80vw;
+    }
+
+    .footerChildBody1 img {
+        width: 30vw;
+    }
+
+    .logoSmScreen {
+        display: block;
+    }
+
+    .logoBgScreen {
+        display: none;
+    }
+}
