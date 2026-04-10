@@ -33,7 +33,7 @@
 
 .extraStyling {
     font-size: var(--meduimFont);
-    padding: 1.5vh 2.5vw;
+    padding: 0.6rem 3rem;
     border-radius: 30px;
     background-color: var(--appButtonColorGreen);
 }
@@ -271,7 +271,7 @@ h2 {
 
 .sectionFourContactButton {
     font-size: var(--meduimFont);
-    padding: 3vh 9vw;
+    padding: 1rem 8rem;
     border-radius: 50px;
     margin-top: 2vh;
     background-color: var(--appButtonColorGreen);
@@ -323,7 +323,7 @@ h2 {
 
     .extraStyling {
         font-size: var(--smallerFont);
-        padding: 1.3vh 4.5vw;
+        padding: 0.6rem 2rem;
         background-color: var(--appButtonColorGreen);
     }
 
@@ -420,7 +420,7 @@ h2 {
 
     .sectionFourContactButton {
         font-size: var(--smallFont);
-        padding: 2vh 20vw;
+        padding: 0.8rem 4rem;
         gap: 12px;
     }
 

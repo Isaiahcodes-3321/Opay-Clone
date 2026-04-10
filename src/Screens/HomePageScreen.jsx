@@ -133,7 +133,6 @@ export function Section3HomeView() {
                 <img src={img3} alt="" />
             </div>
         </>
-
     );
 }
 
