@@ -1,7 +1,13 @@
-export function SolutionSection() {
-    return (
-        <div className="">
+import { FooterBody } from "./footer/FooterView";
 
-        </div>
-    );
+export function SolutionSection() {
+     return (
+           <>
+               <div className="">
+   
+               </div>
+               <FooterBody />
+           </>
+   
+       );
 }
