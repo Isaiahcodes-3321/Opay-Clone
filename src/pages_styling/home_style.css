@@ -409,7 +409,8 @@ h2 {
         font-weight: 400;
     }
     .rowTextImg img {
-        width: 10vw;
+        /* background-color: red; */
+        height: 5vh;
     }
 
     .sectionFiveHeadText {
