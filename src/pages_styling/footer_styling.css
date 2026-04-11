@@ -8,6 +8,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 3rem 0;
+    margin-top: 15vh;
 }
 
 .footerChildBody1 {
@@ -34,17 +36,111 @@
     display: none;
 }
 
+.actionView {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    display: block;
+}
+
+.rowActionText {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rowActionText h2 {
+    color: var(--whiteColor);
+    transition: color 0.5s ease;
+}
+
+.rowActionText h2:hover {
+    color: var(--appButtonColorGreen);
+}
+
+.addSection {
+    width: 100%;
+    height: auto;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addInfo {
+    width: 70vw;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.addInfo span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.addInfo {
+    color: var(--whiteColor);
+    font-size: var(--smallFont);
+}
+
+.addInfo p {
+    width: 40vw;
+}
+
+.addInfoText {
+    padding-top: 1vh;
+}
+
+.conTactInfo {
+    width: 20vw;
+    height: auto;
+    color: var(--whiteColor);
+    /* background-color: orange; */
+}
+
+.conTactInfo p {
+    font-size: var(--smallFont);
+}
+
+.socilaRowIcon i {
+    color: var(--whiteColor);
+    font-size: 23px;
+    padding-top: 1.5vh;
+}
+
+.socilaRowIcon {
+    color: var(--whiteColor);
+}
+
+#fbIcon,
+#twitterIcon {
+    padding-left: 1vw;
+}
+
 @media (max-width: 900px) {
     .footerBody {
+        margin-top: 11vh;
+        padding: 2rem 0;
         flex-direction: column;
     }
 
     .footerChildBody1 {
-        width: 80vw;
+        width: 90vw;
+    }
+
+    .footerChildBody2 {
+        width: 90vw;
     }
 
     .footerChildBody1 img {
-        width: 30vw;
+        width: 40vw;
     }
 
     .logoSmScreen {
@@ -53,5 +149,45 @@
 
     .logoBgScreen {
         display: none;
+    }
+
+    .actionView {
+        display: none;
+    }
+
+    .addSection {
+        width: 100%;
+        height: auto;
+        /* background-color: gray; */
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+
+    .addInfoText1 {
+        padding: 0.5rem 0;
+    }
+
+    .addInfoText {
+        padding-top: 0.1rem;
+    }
+
+    .addInfo {
+        width: 100%;
+    }
+
+    .addInfo p {
+        width: 100%;
+    }
+
+    .conTactInfo {
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    #fbIcon,
+    #twitterIcon {
+        padding-left: 4vw;
     }
 }
