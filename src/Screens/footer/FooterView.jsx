@@ -26,12 +26,12 @@ export function FooterBody() {
                         <span>
                             <i className="fa-solid fa-location-dot"></i>
                             <p>&nbsp;Lagos</p>                        </span>
-                        <p className='addInfoText1'>Plot 9, Dr. Nurudeen Olowopopo Avenue, Central Business District, Alausa 100212, Ikeja, Lagos, Nigeria</p>
-                        <p className='addInfoText'>Over 24 physical branches across the nation.</p>
+                        <p className='addInfoText1'>Plot 9, Dr. Lorem ipsum dolor, . Aliquid consequuntur commodi cumque magnam odit, Lagos, Nigeria</p>
+                        <p className='addInfoText'>Over 24 Lorem ipsum dolor, sit amet Aliqui.</p>
                     </div>
                     <div className='conTactInfo'>
                         <p>Contact with us</p>
-                        <p>pos-service@opay-inc.com</p>
+                        <p>lorem-ipsumlor@opay-inc.com</p>
                         <div className='socilaRowIcon'>
                             <i className="fa-brands fa-instagram"></i>
                             <i id='fbIcon' className="fa-brands fa-facebook-f"></i>
