@@ -232,16 +232,20 @@ h2 {
 
 .rowTextImg {
     width: 100%;
-    height: auto;
+    /* height: 5vh; */
     display: flex;
     /* background-color: red; */
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
+    overflow: hidden;
 }
 
 .rowTextImg img {
-    height: 6vh;
+    width: var(--meduimFont1);
+    height: auto;
+    object-fit: contain;
+
 }
 
 .sectionFourChild h2 {
@@ -408,9 +412,9 @@ h2 {
     .sectionFourChild h3 {
         font-weight: 400;
     }
+
     .rowTextImg img {
-        /* background-color: red; */
-        height: 5vh;
+        width:var(--meduimFont1);
     }
 
     .sectionFiveHeadText {
