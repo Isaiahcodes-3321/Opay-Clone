@@ -237,11 +237,11 @@ h2 {
     /* background-color: red; */
     flex-direction: row;
     justify-content: space-between;
-    align-items: end;
+    align-items: start;
 }
 
 .rowTextImg img {
-    width: 5vw;
+    height: 6vh;
 }
 
 .sectionFourChild h2 {
