@@ -1,0 +1,105 @@
+@import '../pages_styling/global_variables/root_style.css';
+@import '../pages_styling/global_variables/images_path.css';
+
+
+.aboutPageMainBody {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+
+}
+
+.aboutPageMainBody h1 {
+    font-size: var(--bigFont);
+}
+
+.vcParentBox {
+    width: 85vw;
+    height: auto;
+    display: flex;
+    margin-bottom: 2vh;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.vcChildBox1 {
+    width: 43vw;
+    /* background-color: yellow; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.vcChildBox1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.vcChildBox1 h2 {
+    font-size: var(--meduimFont1);
+}
+
+.vcChildBox1 h3 {
+    font-size: var(--meduimFont);
+    padding-top: 1.5vh;
+    font-weight: 400;
+}
+
+.rh2 {
+    padding: 0 2vw;
+    /* background-color: green; */
+}
+
+.rh22 {
+    padding-right: 1.4vw;
+    /* background-color: red; */
+}
+
+.reStyleBox2 {
+    flex-direction: row-reverse;
+}
+
+.reStyleBox4 {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 900px) {
+    .aboutPageMainBody h1 {
+        font-size: var(--meduimFont1);
+    }
+
+    .vcParentBox {
+        flex-direction: column-reverse;
+        width: 90vw;
+        /* background-color: red; */
+    }
+
+    .vcChildBox1 {
+        width: 90vw;
+    }
+
+    .vcChildBox1 h2 {
+        padding-top: 2vh;
+    }
+
+    .vcChildBox1 h3 {
+        font-size: var(--smallFont);
+        padding-top: 0;
+        padding-bottom: 2vh;
+        font-weight: 500;
+    }
+
+    .vcChildBox1 h2 {
+        font-size: var(--meduimFont);
+    }
+
+}

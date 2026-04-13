@@ -1,0 +1,95 @@
+@import '../pages_styling/global_variables/root_style.css';
+@import '../pages_styling/global_variables/images_path.css';
+
+
+.solutionPageMainBody {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.parentBoxSection2 {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 8vh;
+    column-gap: 3vw;
+}
+
+.boxChildSection2 {
+    width: 27vw;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.boxChildSection2 h2 {
+    font-size: var(--meduimFont1);
+}
+
+.boxChildSection2 h3 {
+    width: 80%;
+    font-size: clamp(0.9rem, 1.2rem, 4.5rem);
+    font-weight: 400;
+}
+
+.imgView {
+    width: 5vw;
+    height: auto;
+    /* background-color: green; */
+    display: block;
+    object-fit: contain;
+    margin-bottom: 2.5vh;
+}
+
+.imgView img {
+    width: 100%;
+}
+
+.lastText {
+    padding-top: 3vh;
+    font-weight: 500;
+    font-size: var(--meduimFont);
+    color: var(--blkColor);
+
+}
+
+.sectionFourContactButton {
+    margin-top: 20vh;
+}
+
+@media (max-width: 900px) {
+    .boxChildSection2 {
+        width: 100vw;
+    }
+
+    .imgView {
+        width: 10vw;
+        margin-bottom: 2.5vh;
+    }
+
+    .boxChildSection2 h2 {
+        font-size: var(--meduimFont);
+    }
+
+    .boxChildSection2 h3 {
+        width: 100%;
+        font-size: var(--smallFont);
+    }
+
+    .lastText {
+        padding-top: 2vh;
+        font-size: var(--smallFont);
+    }
+
+    .sectionFourContactButton {
+        margin-top: 10vh;
+    }
+
+}
