@@ -61,7 +61,7 @@
 }
 
 .sectionFourContactButton {
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 @media (max-width: 900px) {
@@ -89,7 +89,7 @@
     }
 
     .sectionFourContactButton {
-        margin-top: 10vh;
+        margin-top: 9vh;
     }
 
 }

@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     overflow-y: auto;
-    background-color: var(--whiteColor);
+    background-color: var(--offWhite);
 }
 
 .sectionOne {
@@ -413,7 +413,7 @@ h2 {
     }
 
     .rowTextImg img {
-        width:var(--meduimFont1);
+        width: var(--meduimFont1);
     }
 
     .sectionFiveHeadText {
