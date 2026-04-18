@@ -1,6 +1,5 @@
-@import '../pages_styling/global_variables/root_style.css';
-@import '../pages_styling/global_variables/images_path.css';
-
+@import '../../pages_styling/global_variables/root_style.css';
+@import '../../pages_styling/global_variables/images_path.css';
 
 .solutionPageMainBody {
     width: 100%;

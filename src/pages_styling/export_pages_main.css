@@ -1,7 +1,8 @@
 @import 'about_us.css';
 @import 'home_style.css';
 @import 'payment.css';
-@import 'solution.css';
+@import './solution_style/solution.css';
+@import './solution_style/solution_head_section_style.css';
 @import 'navbar_styling.css';
 @import './global_variables/images_path.css';
 @import './global_variables/root_style.css';

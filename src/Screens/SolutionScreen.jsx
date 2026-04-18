@@ -8,6 +8,7 @@ import img4 from '../assets/img4.png'
 export function SolutionSection() {
     return (
         <>
+            <SolutionHeadView />
             <div className="solutionPageMainBody">
                 <div className='parentBoxSection2'>
                     <Section2SolutionView imgPath={img4} text1='Digitize valuechains' text2="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid consequuntur commodi cumque, sit amet elit." />
@@ -22,6 +23,23 @@ export function SolutionSection() {
             <FooterBody />
         </>
 
+    );
+}
+
+export function SolutionHeadView() {
+    return (
+        <div className='solutionHeadViewMainBody'>
+            {/* other tag will go in here */}
+            <div className='zIndexBox'>
+                <h1> <span>Innovation</span> Payment Solutionsfor Your Business</h1>
+                <hr />
+                <h3>By understanding your business models and identifying pain points, OPay Business provides customized industrial solutions with ready-made products to help you outpace competitors.</h3>
+
+            </div>
+            <div className='zIndexBox1'>
+
+            </div>
+        </div>
     );
 }
 

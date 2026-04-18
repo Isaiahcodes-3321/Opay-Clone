@@ -1,4 +1,6 @@
 :root {
+  --sBannerBgScnImg: url('../../assets/sBannaImg.png');
+  --sBannerSmlScnImg: url('../../assets/sBannaSmallerImg.png');
   --bannerImg: url('../../assets/bannerImg.png');
   --billBoard: url('../../assets/billBoard.png');
   --fedexLogo: url('../../assets/fedexLogo.png');
