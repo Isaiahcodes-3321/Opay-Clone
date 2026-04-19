@@ -3,22 +3,23 @@
 
 .solutionHeadViewMainBody {
     width: 100%;
-    height: 115vh;
+    height: auto;
+    /* height: 115vh; */
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
-    background-color: red;
+    /* background-color: red; */
     background-image: var(--sBannerBgScnImg);
     background-repeat: no-repeat;
     background-position: right top;
     background-size: contain;
+    margin-bottom: 5vh;
 }
 
 .zIndexBox,
 .zIndexBox1 {
     width: 85vw;
-
 }
 
 .zIndexBox {
@@ -58,15 +59,34 @@
 }
 
 .zIndexBox1 {
-    height: 58vh;
+    height: auto;
     margin-top: 3vh;
-    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: orange; */
+    /* column-gap: 1vh; */
+    row-gap: 1vh;
 }
+
+.imgBoxStyle {
+    width: 27.8vw;
+    height: auto;
+    /* background-color: pink; */
+    display: block;
+    object-fit: contain;
+}
+
+.imgBoxStyle img {
+    width: 100%;
+}
+
 
 
 @media (max-width: 900px) {
     .solutionHeadViewMainBody {
-        height: 90vh;
+        height: auto;
+        margin-bottom: 2vh;
         background-image: var(--sBannerSmlScnImg);
     }
 
@@ -75,6 +95,11 @@
         padding: 2vh 0;
         align-items: start;
         /* background-color: red; */
+    }
+
+    .zIndexBox,
+    .zIndexBox1 {
+        width: 90vw;
     }
 
     .zIndexBox hr {
@@ -93,5 +118,18 @@
         text-align: start;
         font-size: var(--smallFont);
         width: 80vw;
+    }
+
+    .forBgScreen {
+        display: none;
+    }
+
+    .zIndexBox1 {
+        margin-top: 3vh;
+        row-gap: 0.1vh;
+    }
+
+    .imgBoxStyle {
+        width: 44vw;
     }
 }

@@ -2,6 +2,8 @@ import '../pages_styling/export_pages_main.css'
 import { FooterBody } from "./footer/FooterView";
 import { ButtonComponent } from '../components/UiComponents'
 import img4 from '../assets/img4.png'
+import img1 from '../assets/img1.png'
+
 
 
 
@@ -37,8 +39,22 @@ export function SolutionHeadView() {
 
             </div>
             <div className='zIndexBox1'>
-
+                <ImgBox imgPath={img1} imageBoxSt="" />
+                <ImgBox imgPath={img1} imageBoxSt="forBgScreen" />
+                <ImgBox imgPath={img1} imageBoxSt="" />
+               
+                <ImgBox imgPath={img1} imageBoxSt="forBgScreen" />
+                <ImgBox imgPath={img1} imageBoxSt="" />
+                <ImgBox imgPath={img1} imageBoxSt="" />
             </div>
+        </div>
+    );
+}
+
+export function ImgBox({ imgPath, imageBoxSt }) {
+    return (
+        <div className={`imgBoxStyle ${imageBoxSt}`}>
+            <img src={imgPath} alt="" />
         </div>
     );
 }
