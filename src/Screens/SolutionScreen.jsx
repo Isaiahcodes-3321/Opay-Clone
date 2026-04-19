@@ -33,7 +33,7 @@ export function SolutionHeadView() {
         <div className='solutionHeadViewMainBody'>
             {/* other tag will go in here */}
             <div className='zIndexBox'>
-                <h1> <span>Innovation</span> Payment Solutionsfor Your Business</h1>
+                <h1> <span>Innovation</span> Payment Solutions for Your Business</h1>
                 <hr />
                 <h3>By understanding your business models and identifying pain points, OPay Business provides customized industrial solutions with ready-made products to help you outpace competitors.</h3>
 

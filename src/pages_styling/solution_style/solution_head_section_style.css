@@ -24,7 +24,7 @@
 
 .zIndexBox {
     height: auto;
-    margin-top: 7vh;
+    margin-top:4%;
     padding: 3vh 0;
     display: flex;
     flex-direction: column;
@@ -45,10 +45,12 @@
 }
 
 .zIndexBox h1 {
-    width: 50vw;
+    /* width: 50vw; */
+    /* background-color: red; */
+    padding: 0 9vw;
     color: var(--whiteColor);
     text-align: center;
-    font-size: var(--bigFont);
+    font-size: clamp(2rem, 3rem, 10rem);
 }
 
 .solutionHeadViewMainBody .zIndexBox h3 {
