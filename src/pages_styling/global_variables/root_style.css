@@ -14,4 +14,13 @@
     --meduimFont: clamp(1.2rem, 1.5rem, 5rem);
     --meduimFont1: clamp(1.5rem, 1.8rem, 5.5rem);
     --bigFont: clamp(1.9rem, 2.5rem, 8rem);
+    --headTextSty: clamp(2rem, 3rem, 10rem);
+
+    --bgVwHeadText: 3.4vw;
+    --bgMeduimText: 1.5vw;
+
+    --smlVwHeadText: 9vw;
+    --smllMeduimText: 2.5vw;
+    --smlMeduimHdText1: 5.5vw;
+    --smallTextFont: 1vw;
 }

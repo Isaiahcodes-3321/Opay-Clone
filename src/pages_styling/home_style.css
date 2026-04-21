@@ -57,13 +57,13 @@ h2 {
 }
 
 .sBox1 h1 {
-    font-size: var(--bigFont);
+    font-size: var(--bgVwHeadText);
     width: 40vw;
     font-weight: bolder;
 }
 
 .sBox1 h2 {
-    font-size: var(--smallFont);
+    font-size: var(--bgMeduimText);
     font-weight: 500;
     width: 36vw;
 }
@@ -323,12 +323,12 @@ h2 {
 
     .sBox1 h1 {
         width: 92vw;
-        font-size: var(--meduimFont1);
+        font-size: var(--smlVwHeadText);
     }
 
     .sBox1 h2 {
         width: 92vw;
-        font-size: var(--smallFont);
+        font-size: var(--smllMeduimText);
     }
 
     .extraStyling {

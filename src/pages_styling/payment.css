@@ -1,0 +1,213 @@
+@import '../pages_styling/global_variables/root_style.css';
+@import '../pages_styling/global_variables/images_path.css';
+
+.paymentMainViewBody {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headText {
+    width: 85vw;
+    height: auto;
+    /* background-color: orange; */
+    display: flex;
+    padding: 5vh 0;
+    gap: 5vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headText h1 span {
+    color: var(--appButtonColorGreen);
+}
+
+.htText1Bg {
+    display: block;
+}
+
+.headText h1 {
+    text-align: center;
+    font-size: var(--bgVwHeadText);
+}
+
+.htText1Sm {
+    display: none;
+}
+
+.headText hr {
+    width: 100%;
+    height: 2px;
+    border: none;
+    background-color: var(--textBlackColor) !important;
+}
+
+.subHeadtext .subHeadtext1 {
+    color: var(--blueColor);
+}
+
+.subTT,
+h2 .subHeadtext {
+    font-weight: bold !important;
+    font-size: var(--bgMeduimText);
+}
+
+.subTT,
+h3 .subHeadtext1 {
+    font-size: var(--bgMeduimText) !important;
+    color: var(--blueColor) !important;
+}
+
+.rowBox {
+    width: 85%;
+    height: auto;
+    display: flex;
+    margin-bottom: 2vh;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.rreStleRowBox {
+    flex-direction: row-reverse;
+}
+
+.rowBoxChild1 {
+    width: 44vw;
+    /* background-color: yellow; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.rowBoxChild1 img {
+    width: 44vw;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.listTextContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.statusDot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--appButtonColorGreen);
+}
+
+.statusDescription {
+    font-size: var(--bgMeduimText);
+    /* font-weight: 400;  */
+    color: var(--textBlackColor);
+    line-height: 1.6;
+}
+
+.pSectionTwo {
+    width: 100%;
+    height: auto;
+    /* background-color: orange; */
+    display: flex;
+    padding: 5vh 6vw;
+    gap: 5vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hdTextSection2 {
+    font-weight: bold !important;
+    font-size: var(--bgVwHeadText);
+}
+
+.pRowImagBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.pImageBox2 {
+    width: 32%;
+    height: 70vh;
+    /* background-color: rgb(21, 255, 0); */
+    object-fit: contain;
+    background-image: var(--img3);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 900px) {
+    .headText {
+        width: 90vw;
+        flex-direction: column;
+        align-items: start;
+        padding: 3vh 0;
+        justify-content: start;
+        /* background-color: red; */
+    }
+
+    .headText h1 {
+        text-align: start;
+        font-size: var(--smlVwHeadText)
+    }
+
+    .htText1Bg {
+        display: none;
+    }
+
+    .htText1Sm {
+        display: block;
+    }
+
+    .headText hr {
+        display: none;
+    }
+
+    .subTT,
+    h2 .subHeadtext {
+        font-weight: bold !important;
+        font-size: var(--bgVwHeadText) !important;
+    }
+
+    .subTT,
+    h3 .subHeadtext1 {
+        font-size: var(--smllMeduimText) !important;
+        color: var(--blueColor) !important;
+    }
+
+    .rowBox {
+        width: 90vw;
+        flex-direction: column;
+        /* margin-bottom: 2vh; */
+        /* background-color: red; */
+    }
+
+    .rowBoxChild1 {
+        width: 100%;
+        /* background-color: yellow; */
+    }
+
+    .rowBoxChild1 img {
+        width: 100%;
+    }
+
+    .statusDescription {
+        font-size: var(--bgVwHeadText);
+        font-weight: 500;
+        color: var(--textBlackColor);
+        line-height: 1.6;
+    }
+}

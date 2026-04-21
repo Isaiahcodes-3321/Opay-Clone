@@ -44,7 +44,7 @@
 
 div.mainBoardView .chdMainBoardView h1 {
     padding-top: 5vh !important;
-    font-size: var(--bigFont) !important;
+    font-size:var(--bgVwHeadText);
 }
 
 .chdMainBoardView1 {
@@ -81,7 +81,7 @@ div.mainBoardView .chdMainBoardView h1 {
 }
 
 .aboutTextInfo p {
-    font-size: var(--smallFont);
+    font-size: var(--smallTextFont);
     color: var(--blueColor);
     padding-right: 20px;
     font-weight: 600;
@@ -200,7 +200,7 @@ div.mainBoardView .chdMainBoardView h1 {
 
     div.mainBoardView .chdMainBoardView h1 {
         padding-top: 2vh !important;
-        font-size: var(--bigFont) !important;
+        font-size: var(--smlVwHeadText) !important;
         display: block !important;
     }
 
@@ -273,7 +273,7 @@ div.mainBoardView .chdMainBoardView h1 {
     }
 
     .aboutTextInfo p {
-        font-size: var(--smallFont);
+        font-size: var(--smllMeduimText);
         padding-right: 0;
     }
 

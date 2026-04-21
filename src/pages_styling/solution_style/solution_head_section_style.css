@@ -4,10 +4,9 @@
 .solutionHeadViewMainBody {
     width: 100%;
     height: auto;
-    /* height: 115vh; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    gap: 3vh;
     align-items: center;
     /* background-color: red; */
     background-image: var(--sBannerBgScnImg);
@@ -24,8 +23,8 @@
 
 .zIndexBox {
     height: auto;
-    margin-top:4%;
-    padding: 3vh 0;
+    margin-top: 4%;
+    padding: 1vh 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,19 +49,21 @@
     padding: 0 9vw;
     color: var(--whiteColor);
     text-align: center;
-    font-size: clamp(2rem, 3rem, 10rem);
+    font-size: var(--bgVwHeadText);
+
 }
 
 .solutionHeadViewMainBody .zIndexBox h3 {
     color: var(--whiteColor);
     font-weight: 400;
     text-align: center;
+    font-size: var(--bgMeduimText);
     width: 80vw;
 }
 
 .zIndexBox1 {
     height: auto;
-    margin-top: 3vh;
+    /* margin-top: 3vh; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -111,14 +112,15 @@
 
     .zIndexBox h1 {
         width: 100%;
+        padding: 0 0;
         text-align: start;
-        font-size: var(--meduimFont);
+        font-size: var(--smlVwHeadText);
         /* background-color: orange; */
     }
 
     .solutionHeadViewMainBody .zIndexBox h3 {
         text-align: start;
-        font-size: var(--smallFont);
+        /* font-size: var(--smallFont); */
         width: 80vw;
     }
 
@@ -127,7 +129,7 @@
     }
 
     .zIndexBox1 {
-        margin-top: 3vh;
+        margin-top: 0;
         row-gap: 0.1vh;
     }
 

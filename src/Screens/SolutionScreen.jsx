@@ -36,7 +36,6 @@ export function SolutionHeadView() {
                 <h1> <span>Innovation</span> Payment Solutions for Your Business</h1>
                 <hr />
                 <h3>By understanding your business models and identifying pain points, OPay Business provides customized industrial solutions with ready-made products to help you outpace competitors.</h3>
-
             </div>
             <div className='zIndexBox1'>
                 <ImgBox imgPath={img1} imageBoxSt="" />
