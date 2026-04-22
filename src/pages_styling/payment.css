@@ -59,6 +59,7 @@ h2 .subHeadtext {
 h3 .subHeadtext1 {
     font-size: var(--bgMeduimText) !important;
     color: var(--blueColor) !important;
+    margin-bottom: 1vw;
 }
 
 .rowBox {
@@ -99,8 +100,8 @@ h3 .subHeadtext1 {
 }
 
 .statusDot {
-    width: 12px;
-    height: 12px;
+    width: 9px;
+    height: 9px;
     border-radius: 50%;
     background-color: var(--appButtonColorGreen);
 }
@@ -137,21 +138,15 @@ h3 .subHeadtext1 {
     flex-direction: row;
     overflow-x: auto;
     white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
+    justify-content: space-between;
+    /* -webkit-overflow-scrolling: touch; */
     /* background-color: red; */
 }
 
-.pRowImagBox::-webkit-scrollbar {
-    display: none;
-}
-
-.pRowImagBox>* {
-    flex-shrink: 0;
-}
 
 .pImageBox2 {
-    width: 32%;
-    height: 70vh;
+    width: 30vw;
+    height: 40vw;
     background-image: var(--img3);
     background-repeat: no-repeat;
     background-position: center;
@@ -323,10 +318,22 @@ h3 .subHeadtext1 {
         font-size: var(--smlMeduimHdText1) !important;
     }
 
+    .pRowImagBox {
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .pRowImagBox::-webkit-scrollbar {
+        display: none;
+    }
+
+    .pRowImagBox>* {
+        flex-shrink: 0;
+    }
 
 
     .pImageBox2 {
-        width: 70%;
+        width: 50vw;
+        height: 80vw;
     }
 
     .pImageBox2 h1,
