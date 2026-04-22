@@ -47,6 +47,7 @@
     /* width: 50vw; */
     /* background-color: red; */
     padding: 0 9vw;
+    margin-bottom: 5px;
     color: var(--whiteColor);
     text-align: center;
     font-size: var(--bgVwHeadText);
@@ -57,6 +58,7 @@
     color: var(--whiteColor);
     font-weight: 400;
     text-align: center;
+    margin-top: 15px;
     font-size: var(--bgMeduimText);
     width: 80vw;
 }
@@ -120,8 +122,9 @@
 
     .solutionHeadViewMainBody .zIndexBox h3 {
         text-align: start;
-        /* font-size: var(--smallFont); */
         width: 80vw;
+        margin-top: 1px;
+        font-size: var(--smllMeduimText);
     }
 
     .forBgScreen {

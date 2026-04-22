@@ -129,25 +129,133 @@ h3 .subHeadtext1 {
     font-size: var(--bgVwHeadText);
 }
 
+
 .pRowImagBox {
     width: 100%;
-    height: auto;
+    gap: 2vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
     /* background-color: red; */
+}
+
+.pRowImagBox::-webkit-scrollbar {
+    display: none;
+}
+
+.pRowImagBox>* {
+    flex-shrink: 0;
 }
 
 .pImageBox2 {
     width: 32%;
     height: 70vh;
-    /* background-color: rgb(21, 255, 0); */
-    object-fit: contain;
     background-image: var(--img3);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
+.pImageBox2 h1,
+.pImageBox2 h2 {
+    color: var(--whiteColor) !important;
+    font-size: var(--smllMeduimText) !important;
+    margin: 0;
+}
+
+.pImageBox2 h2 {
+    margin-top: 1vh;
+    width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    display: block;
+    font-size: var(--bgMeduimText) !important;
+}
+
+.lastSectionTwo {
+    width: 100%;
+    height: auto;
+    /* background-color: orange; */
+    display: flex;
+    padding: 5vh 6vw;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.lsText1,
+.lsText2,
+.lsText3,
+.lsText4,
+.lsText5 {
+    text-align: center;
+}
+
+.lsText1,
+.lsText4,
+.lsText5 {
+    color: var(--textBlackColor);
+}
+
+.lsText1,
+.lsText4 {
+    font-weight: 500;
+}
+
+.lsText2,
+.lsText3 {
+    font-size: var(--bgVwHeadText);
+}
+
+.lsText4,
+.lsText5 {
+    font-size: var(--bgMeduimText);
+}
+
+.lsText1 {
+    font-size: var(--smllMeduimText);
+}
+
+.lsText2 {
+    font-weight: 900;
+    color: var(--appButtonColorGreen);
+}
+
+.lsText3 {
+    color: var(--blueColor);
+}
+
+.lsText1 {
+    font-weight: 500;
+}
+
+
+.lsText5 {
+    font-weight: 500;
+}
+
+.lastContactButton {
+    width: 60% !important;
+    font-size: var(--smllMeduimText);
+    padding: 25px 0;
+    border-radius: 50px;
+    margin-top: 1vh;
+    background-color: var(--appButtonColorGreen);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
 
 @media (max-width: 900px) {
     .headText {
@@ -205,9 +313,49 @@ h3 .subHeadtext1 {
     }
 
     .statusDescription {
-        font-size: var(--bgVwHeadText);
+        font-size: var(--smllMeduimText);
         font-weight: 500;
         color: var(--textBlackColor);
         line-height: 1.6;
+    }
+
+    .hdTextSection2 {
+        font-size: var(--smlMeduimHdText1) !important;
+    }
+
+
+
+    .pImageBox2 {
+        width: 70%;
+    }
+
+    .pImageBox2 h1,
+    .pImageBox2 h2 {
+        font-size: var(--smlMeduimHdText1) !important;
+        margin: 0;
+    }
+
+    .pImageBox2 h2 {
+        margin-top: 0.5vh;
+        font-size: var(--smllMeduimText) !important;
+    }
+
+    .lsText1 {
+        font-size: var(--bgVwHeadText);
+    }
+
+    .lsText2,
+    .lsText3 {
+        font-size: var(--smlMeduimHdText1);
+    }
+
+    .lsText4,
+    .lsText5 {
+        font-size: var(--smllMeduimText);
+    }
+
+    .lastContactButton {
+        width: 80% !important;
+        font-size: var(--bgVwHeadText);
     }
 }

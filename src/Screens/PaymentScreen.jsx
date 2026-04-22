@@ -1,5 +1,6 @@
 import '../pages_styling/export_pages_main.css'
 import { FooterBody } from "./footer/FooterView";
+import { ButtonComponent } from '../components/UiComponents'
 import img1 from '../assets/opayMachImg.png'
 
 
@@ -20,6 +21,7 @@ export function PaymentSection() {
 
             </div>
             <PaymentSectionTwo />
+            <LastSection />
             <FooterBody />
         </>
 
@@ -83,22 +85,39 @@ export function ListText({ text }) {
 }
 
 export function PaymentSectionTwo() {
+    let string = "Lorem ipsum dolor, sit amet consectetur a Lorem ipsum dolor, sit amet consectetur a";
     return (
         <div className='pSectionTwo'>
             <h2 className='hdTextSection2'>Online Payments For Everyone </h2>
             <div className='pRowImagBox'>
-                <ImageText />
-                <ImageText />
-                <ImageText />
+                <ImageText text1="Full suite of" text2="payment options" text3={string} />
+                <ImageText text1="Fraud" text2="detection" text3={string} />
+                <ImageText text1="24/7" text2="customer care" text3={string} />
             </div>
         </div>
     );
 }
 
-export function ImageText() {
+export function ImageText({ text1, text2, text3 }) {
     return (
         <div className='pImageBox2'>
+            <h1>{text1} <br /> {text2}</h1>
+            <h2>{text3}</h2>
+        </div>
+    );
+}
 
+export function LastSection() {
+    return (
+        <div className='lastSectionTwo'>
+            <h4 className='lsText1'>Let your customers choose their preferred payment methods and accept payments anytime, everywhere.</h4>
+            <h2 className='lsText2'>Apply for OPay Online Gateway</h2>
+            <h1 className='lsText3'>Get insights about your business</h1>
+            <h2 className='lsText4'>Access a comprehensive data analysis of your business to help you discover your business opportunities and customer purchase behaviour. Save time, boost sales and earn more money by getting insights on your best-selling products and highest-spending customers.</h2>
+            <ButtonComponent buttonText="Contact Opay" className='lastContactButton'>
+                <i className="fas fa-phone" />
+            </ButtonComponent>
+            <h3 className='lsText5'>Get in touch with us to learn more</h3>
         </div>
     );
 }
