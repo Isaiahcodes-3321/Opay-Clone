@@ -24,6 +24,19 @@
     background-size: 63vw;
     object-fit: contain;
     /* background-color: red; */
+    animation: scaleAnimation 0.8s ease-in-out forwards;
+}
+
+@keyframes scaleAnimation {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .sectionOne div {
@@ -306,7 +319,21 @@ h2 {
         background-size: 90vw;
         padding: 6.5rem 0;
         /* background-color: red; */
+        animation: scaleAnimation 0.8s ease-in-out forwards;
     }
+
+    @keyframes scaleAnimation {
+        from {
+            transform: scale(0.8);
+            opacity: 0;
+        }
+
+        to {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
 
     .sectionOne div {
         display: none;
@@ -330,7 +357,7 @@ h2 {
     .sBox1 h1 {
         width: 92vw;
         font-size: var(--smlVwHeadText) !important;
-
+        animation: jello 1.6s infinite;
     }
 
     .sBox1 h2 {
